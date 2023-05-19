@@ -7,13 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA2FB1C52A179D94007C2824 /* MailExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FB1C42A179D94007C2824 /* MailExtension.m */; };
+		DA2FB1C82A179D94007C2824 /* ComposeSessionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FB1C72A179D94007C2824 /* ComposeSessionHandler.m */; };
+		DA2FB1CB2A179D94007C2824 /* ComposeSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2FB1CA2A179D94007C2824 /* ComposeSessionViewController.m */; };
+		DA2FB1CD2A179D94007C2824 /* ComposeSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA2FB1CC2A179D94007C2824 /* ComposeSessionViewController.xib */; };
+		DA2FB1D22A179D94007C2824 /* MailExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DA2FB1C12A179D94007C2824 /* MailExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAA80F292A17947E00E9157E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA80F282A17947E00E9157E /* AppDelegate.m */; };
 		DAA80F2B2A17948000E9157E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA80F2A2A17948000E9157E /* Assets.xcassets */; };
 		DAA80F2E2A17948000E9157E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAA80F2C2A17948000E9157E /* MainMenu.xib */; };
 		DAA80F302A17948000E9157E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA80F2F2A17948000E9157E /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DA2FB1D02A179D94007C2824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA80F072A1793EE00E9157E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2FB1C02A179D94007C2824;
+			remoteInfo = MailExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA2FB1D32A179D94007C2824 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA2FB1D22A179D94007C2824 /* MailExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DA2FB1C12A179D94007C2824 /* MailExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MailExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2FB1C32A179D94007C2824 /* MailExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailExtension.h; sourceTree = "<group>"; };
+		DA2FB1C42A179D94007C2824 /* MailExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailExtension.m; sourceTree = "<group>"; };
+		DA2FB1C62A179D94007C2824 /* ComposeSessionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeSessionHandler.h; sourceTree = "<group>"; };
+		DA2FB1C72A179D94007C2824 /* ComposeSessionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeSessionHandler.m; sourceTree = "<group>"; };
+		DA2FB1C92A179D94007C2824 /* ComposeSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeSessionViewController.h; sourceTree = "<group>"; };
+		DA2FB1CA2A179D94007C2824 /* ComposeSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeSessionViewController.m; sourceTree = "<group>"; };
+		DA2FB1CC2A179D94007C2824 /* ComposeSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeSessionViewController.xib; sourceTree = "<group>"; };
+		DA2FB1CE2A179D94007C2824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2FB1CF2A179D94007C2824 /* MailExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MailExtension.entitlements; sourceTree = "<group>"; };
 		DAA80F252A17947E00E9157E /* MailExtensionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailExtensionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA80F272A17947E00E9157E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAA80F282A17947E00E9157E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DA2FB1BE2A179D94007C2824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAA80F222A17947E00E9157E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,10 +80,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA2FB1C22A179D94007C2824 /* MailExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DA2FB1C32A179D94007C2824 /* MailExtension.h */,
+				DA2FB1C42A179D94007C2824 /* MailExtension.m */,
+				DA2FB1C62A179D94007C2824 /* ComposeSessionHandler.h */,
+				DA2FB1C72A179D94007C2824 /* ComposeSessionHandler.m */,
+				DA2FB1C92A179D94007C2824 /* ComposeSessionViewController.h */,
+				DA2FB1CA2A179D94007C2824 /* ComposeSessionViewController.m */,
+				DA2FB1CC2A179D94007C2824 /* ComposeSessionViewController.xib */,
+				DA2FB1CE2A179D94007C2824 /* Info.plist */,
+				DA2FB1CF2A179D94007C2824 /* MailExtension.entitlements */,
+			);
+			path = MailExtension;
+			sourceTree = "<group>";
+		};
 		DAA80F062A1793EE00E9157E = {
 			isa = PBXGroup;
 			children = (
 				DAA80F262A17947E00E9157E /* MailExtensionApp */,
+				DA2FB1C22A179D94007C2824 /* MailExtension */,
 				DAA80F102A1793EE00E9157E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA80F252A17947E00E9157E /* MailExtensionApp.app */,
+				DA2FB1C12A179D94007C2824 /* MailExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +130,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DA2FB1C02A179D94007C2824 /* MailExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2FB1D62A179D94007C2824 /* Build configuration list for PBXNativeTarget "MailExtension" */;
+			buildPhases = (
+				DA2FB1BD2A179D94007C2824 /* Sources */,
+				DA2FB1BE2A179D94007C2824 /* Frameworks */,
+				DA2FB1BF2A179D94007C2824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailExtension;
+			productName = MailExtension;
+			productReference = DA2FB1C12A179D94007C2824 /* MailExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		DAA80F242A17947E00E9157E /* MailExtensionApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA80F322A17948000E9157E /* Build configuration list for PBXNativeTarget "MailExtensionApp" */;
@@ -73,10 +154,12 @@
 				DAA80F212A17947E00E9157E /* Sources */,
 				DAA80F222A17947E00E9157E /* Frameworks */,
 				DAA80F232A17947E00E9157E /* Resources */,
+				DA2FB1D32A179D94007C2824 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DA2FB1D12A179D94007C2824 /* PBXTargetDependency */,
 			);
 			name = MailExtensionApp;
 			productName = MailExtensionApp;
@@ -93,6 +176,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					DA2FB1C02A179D94007C2824 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					DAA80F242A17947E00E9157E = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -112,11 +198,20 @@
 			projectRoot = "";
 			targets = (
 				DAA80F242A17947E00E9157E /* MailExtensionApp */,
+				DA2FB1C02A179D94007C2824 /* MailExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DA2FB1BF2A179D94007C2824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2FB1CD2A179D94007C2824 /* ComposeSessionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAA80F232A17947E00E9157E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,6 +224,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DA2FB1BD2A179D94007C2824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2FB1C82A179D94007C2824 /* ComposeSessionHandler.m in Sources */,
+				DA2FB1C52A179D94007C2824 /* MailExtension.m in Sources */,
+				DA2FB1CB2A179D94007C2824 /* ComposeSessionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAA80F212A17947E00E9157E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +244,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2FB1D12A179D94007C2824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2FB1C02A179D94007C2824 /* MailExtension */;
+			targetProxy = DA2FB1D02A179D94007C2824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DAA80F2C2A17948000E9157E /* MainMenu.xib */ = {
@@ -152,6 +265,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DA2FB1D42A179D94007C2824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MailExtension/MailExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBPW9LPK8E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MailExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MailExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilkorotenko.MailExtensionApp.MailExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		DA2FB1D52A179D94007C2824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MailExtension/MailExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBPW9LPK8E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MailExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MailExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilkorotenko.MailExtensionApp.MailExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
 		DAA80F1C2A1793F000E9157E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +489,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DA2FB1D62A179D94007C2824 /* Build configuration list for PBXNativeTarget "MailExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2FB1D42A179D94007C2824 /* Debug */,
+				DA2FB1D52A179D94007C2824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DAA80F0A2A1793EE00E9157E /* Build configuration list for PBXProject "MailExtensionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
